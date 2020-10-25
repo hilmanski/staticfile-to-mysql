@@ -11,10 +11,15 @@ Inside index.php is just snippet.
 
 You need to complete it with your own code.
 
--prepare your database, table and columns that you need
--add mysql connection
--php snippet inside index.php
--insert into query for each of your column
+- prepare your database, table and columns that you need
+- add mysql connection
+- php snippet inside index.php
+- insert into query for each of your column
+
+# What it does
+- It will loop a certain folder where you put your static files
+- separate between meta tag and the body, it could be with "+++" or "---" sign
+- you can insert the avalable data to your DB
 
 # Assumption
 1. It assumes all your static files/contents are inside "blog" folder, feel free to change it
