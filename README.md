@@ -17,7 +17,7 @@ You need to complete it with your own code.
 -insert into query for each of your column
 
 # Assumption
-1. It assumes you put it inside "blog" folder, feel free to change it
+1. It assumes all your static files/contents are inside "blog" folder, feel free to change it
 2. It assumes the file structure as follows:
 ```
 +++
