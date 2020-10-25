@@ -6,6 +6,8 @@ This is php snippet to convert your static files (normally in markdown) to mysql
 
 Case you might use this, when move from SSG (static site generator)  to server side that requires database like mysql
 
+I don't write the "connection" and "insert into part", feel free write with your own need.
+
 # How to
 Inside index.php is just snippet.
 
@@ -13,8 +15,8 @@ You need to complete it with your own code.
 
 - prepare your database, table and columns that you need
 - add mysql connection
-- php snippet inside index.php
-- insert into query for each of your column
+- customize the "php snippet" inside index.php
+- write "insert into query" for each of your column
 
 # What it does
 - It will loop a certain folder where you put your static files
@@ -33,3 +35,5 @@ tag = "html"
 +++ 
 body here ...
 ```
+
+tag: how to move from static site generator to mysql, how to export static files to mysql, move from hugo to php, ...
